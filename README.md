@@ -213,3 +213,19 @@ O Redis ele vem com 15 bancos de dados diferentes enumerados de 0 até 15.
 ```bash
     SELECT 0
 ```
+
+### Outros comandos
+
+**TYPE** - Serve para verificar o tipo do valor que a chave armazena
+
+```bash
+    TYPE key
+```
+
+**EXISTS** - Verificar se existe uma chave
+
+Retorna 1 ou 0
+
+```bash
+    EXISTS key
+```
