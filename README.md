@@ -189,3 +189,27 @@ Especificar pra aguardar pra sempre até um elemento ser adicionado a fila
 ```bash
     BLPOP key 0
 ```
+
+### Limpar Banco
+
+Limpa todos os dados do banco selecionado
+
+```bash
+    FLUSHDB
+```
+
+Limpa todos os dados de todos os bancos
+
+```bash
+    FLUSHALL
+```
+
+### Bancos
+
+O Redis ele vem com 15 bancos de dados diferentes enumerados de 0 até 15.
+
+**SELECT** - Para selecionar um dos bancos
+
+```bash
+    SELECT 0
+```
